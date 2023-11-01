@@ -1,0 +1,47 @@
+{
+    "propiedades": [
+      {
+        "imagen": "habitacion1.jpg",
+        "titulo": "Habitación en el Hotel Plaza Central",
+        "metros_cuadrados": "25 m²",
+        "descripcion": "Esta habitación en el Hotel Plaza Central ofrece una estancia cómoda y conveniente en el corazón de Buenos Aires. Cuenta con una cama queen-size, baño privado con ducha, TV de pantalla plana y escritorio. La habitación está decorada con un estilo contemporáneo y colores cálidos. Los huéspedes pueden disfrutar de servicios adicionales como desayuno incluido, acceso a Internet y servicio de habitaciones.",
+        "precio": 7200
+      },
+      {
+        "imagen": "habitacion2.jpg",
+        "titulo": "Habitación en el Hotel Playa Dorada",
+        "metros_cuadrados": "35 m²",
+        "descripcion": "Esta amplia habitación en el Hotel Playa Dorada ofrece una experiencia de alojamiento relajante en la costa de Mar del Plata. Cuenta con una cama king-size, área de estar con sofá, baño privado con bañera y balcón con vista al mar. La habitación está elegantemente decorada en tonos suaves y cuenta con comodidades modernas como aire acondicionado, minibar y TV de pantalla plana.",
+        "precio": 14000
+      },
+      {
+        "imagen": "habitacion3.jpg",
+        "titulo": "Habitación en el Hotel Sierra Nevada",
+        "metros_cuadrados": "40 m²",
+        "descripcion": "Esta acogedora habitación en el Hotel Sierra Nevada ofrece un ambiente cálido y rústico en la hermosa ciudad de Bariloche. Cuenta con una cama queen-size, zona de estar con chimenea, baño privado con ducha y vistas panorámicas a las montañas. La habitación está decorada con elementos de madera y detalles típicos de la región.",
+        "precio": 9400
+      },
+      {
+        "imagen": "habitacion4.jpg",
+        "titulo": "Habitación en el Hotel Playa Serena",
+        "metros_cuadrados": "30 m²",
+        "descripcion": "Esta habitación en el Hotel Playa Serena ofrece una estancia agradable en la costa de Mar del Plata. Cuenta con una cama doble, baño privado con ducha, TV de pantalla plana y minibar. La habitación está decorada en tonos claros y mobiliario moderno.",
+        "precio": 5090
+      },
+      {
+        "imagen": "habitacion5.webp",
+        "titulo": "Habitación en el Hotel Gran Vista",
+        "metros_cuadrados": "28 m²",
+        "descripcion": "Esta habitación en el Hotel Gran Vista ofrece una estancia confortable en la vibrante ciudad de Córdoba. Cuenta con una cama queen-size, baño privado con ducha, escritorio y TV de pantalla plana. La habitación está decorada en un estilo contemporáneo y cuenta con colores vivos.",
+        "precio": 900
+      },
+      {
+        "imagen": "habitacion6.jpg",
+        "titulo": "Habitación en el Hotel Montaña Azul",
+        "metros_cuadrados": "32 m²",
+        "descripcion": "Esta habitación en el Hotel Montaña Azul ofrece un refugio acogedor en medio de la belleza natural de San Carlos de Bariloche. Cuenta con una cama king-size, área de estar con sofá, baño privado con bañera y vistas a las montañas. La habitación está decorada en tonos cálidos y cuenta con detalles de madera.",
+        "precio": 8500
+      }
+    ]
+  }
+  

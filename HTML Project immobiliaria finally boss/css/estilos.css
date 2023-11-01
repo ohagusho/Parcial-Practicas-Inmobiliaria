@@ -1,0 +1,385 @@
+header{
+    background: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 200px;
+}
+h1{
+    color: #000000;
+    font-size: 70px;
+}
+.biribiri{
+  background-color: #b4ac99ad;
+}
+body {
+  font-family: 'Ysabeau SC', sans-serif;
+  background-image: url('/casaparafondo.jpg');
+  background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+  background-attachment: fixed; /* Opcional, para que la imagen de fondo no se desplace con el contenido */
+}
+
+a{
+    font-size: 30px;
+}
+.padre{
+    display: flex;
+}
+nav{
+    background: #CBB279;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.enlace{
+    background: #CBB279;
+    color: #ffffff;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+.enlace:hover{
+    background: #d4c092;
+}
+.imagen{
+    width: 500px;
+    height: 500px;
+    background: #b9b394;
+}
+*{
+  font-family: 'Ysabeau SC', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-around;
+  margin: auto;
+}
+.card{
+  position: relative;
+  width: 30%;
+  height: 600px;
+  margin-top: 500px;
+  margin: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #cab760ad;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%)
+}
+.card img{
+    width: 100%;
+    height: 500px;
+}
+p{
+    font-size: 20px;
+}
+h6{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.enlace2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente del enlace */
+    text-align: end;
+  }
+  /* PARTE FOOTER */
+  footer {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #888;
+    text-align: center;
+  }
+  .footer-bottom {
+    background-color: #537188;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* Parte de Inmobiliarias todas aaaaaa */
+  .contenedorH {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .cardH {
+    text-align: center;
+    position: relative;
+    width: 95%;
+    height: 400px;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f1efe6;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: flex;
+    align-items: center;
+  }
+  .cardH p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 5px;
+    padding: 11px;
+  }
+  .imagenH {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6px 0 0 6px;
+  }
+  .cardH:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+  }
+  /* Parte de Nosotros */
+  h5{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+  }
+  .logomini{
+    width: 30px;
+    height: 30px;
+  }
+  .unique{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    background: #b9b394;
+  }
+    /* Parte de Contacto */
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .contact-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .contact-form button {
+      background-color: #b9b394;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+      background-color: #b9b394;
+    }
+        /* Parte de boton de desplazamiento */
+        .scrolling-button {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          z-index: 9999;
+        }        
+        .toggle {
+          display: none;
+        }
+        
+        .toggle-label {
+          display: block;
+          position: relative;
+          width: 60px;
+          height: 60px;
+          background-color: #b9b394;
+          color: #fff;
+          text-align: center;
+          cursor: pointer;
+        }
+        
+        .menu-icon {
+          display: block;
+          font-size: 24px;
+          line-height: 60px;
+        }
+        
+        .menu-text {
+          display: none;
+        }
+        
+        .menu-list {
+          display: none;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          background-color: #b9b394;
+          list-style-type: none;
+          padding: 10px;
+        }
+        
+        .menu-list li {
+          margin-bottom: 10px;
+        }
+        
+        .menu-list a {
+          color: #fff;
+          text-decoration: none;
+        }
+        
+        .toggle:checked + .toggle-label .menu-list {
+          display: block;
+        }
+                /* Parte de boton de desplazamiento de imagenes */
+                .image-slider {
+                  width: 1000px;
+                  height: 600px;
+                  margin: 0 auto;
+                  text-align: center;
+                  overflow-x: scroll;
+                }
+                
+                .slider-container {
+                  display: flex;
+                  scroll-snap-type: x mandatory;
+                }
+                
+                .slider {
+                  display: flex;
+                }
+                
+                .slider img {
+                  width: 1000px;
+                  height: 600px;
+                  margin: 3px;
+                  scroll-snap-align: start;
+                }
+/* descripciones */               
+.descripHotel{
+margin: 10px;
+text-align: start;
+}
+.botoncompra{
+  background: #b9b394;
+  color: #ffffff;
+  padding: 10px 100px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 50px;
+}
+  /* Parte de detalles de inmobiles todas aaaaaaaaaaaaa */
+  .contenedorI{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    
+  }
+  .cardI{
+    position: relative;
+    width: 30%;
+    height: 350px;
+    margin-top: 0px;
+    margin: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f1efe6;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .cardI:hover{
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+      transform: translateY(-3%)
+  }
+  /* estilos.css */
+.propiedad img {
+  max-width: 50%; /* Establece el ancho máximo al 100% del contenedor */
+  height: auto; /* Mantiene la relación de aspecto original de las imágenes */
+}
+/* Estilos personalizados para el botón de precio */
+.precio-button {
+  background-color: #bdb870; /* Cambia este valor al color que desees */
+  color: #fff; /* Cambia este valor al color de texto deseado */
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 80px;
+  transition: background-color 0.3s ease-in-out;
+  height: 190px;
+}
+
+/* Estilos al pasar el mouse sobre el botón */
+.precio-button:hover {
+  background-color: #929955; /* Cambia este valor al color que deseas al pasar el mouse */
+}
+/*FILTRO DE PRECIOS
+/* Centra el campo de filtro y ajusta el tamaño */
+#filtroPrecioCasas {
+  width: 80%; /* Ancho del campo de filtro */
+  max-width: 300px; /* Ancho máximo para evitar que sea demasiado ancho */
+  padding: 10px; /* Relleno interno para un aspecto más grande */
+  font-size: 16px; /* Tamaño de fuente */
+  text-align: center; /* Centra el texto horizontalmente */
+  display: block; /* Hace que el campo sea un bloque (centra verticalmente) */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+#btnFiltrarCasas {
+  font-size: 20px; 
+  padding: 10px 50px; 
+  margin-left: 865px;
+}
+/* Estilos para centrar y aumentar el tamaño del filtro y el botón */
+#precioFiltro, #filtrarBtn {
+  display: flex;
+  margin: 0 auto; 
+  width: 30%; 
+  padding: 10px; 
+  font-size: 16px; 
+}
+
+/*nota personal, la mitad de lo que esta en este css ya no se si es funcional o no despues de haber pasado todo a json y ajax, solo dios lo sabe*/ 

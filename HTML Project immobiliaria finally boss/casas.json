@@ -1,0 +1,47 @@
+{
+    "propiedades": [
+      {
+        "imagen": "Casa1.avif",
+        "titulo": "Casa en Calle Pampa 123, Buenos Aires",
+        "metros_cuadrados": "200 m²",
+        "descripcion": "Esta hermosa casa de estilo contemporáneo ofrece amplios espacios interiores y un diseño moderno. Cuenta con 3 habitaciones, 2 baños, cocina totalmente equipada, sala de estar, comedor y un jardín privado. La casa también cuenta con una piscina y una cochera para dos vehículos. Estado: Excelente estado de conservación. Antigüedad: Construida hace 5 años.",
+        "precio": 350000
+      },
+      {
+        "imagen": "Casa2.avif",
+        "titulo": "Casa en Calle Cordillera 456, Mendoza",
+        "metros_cuadrados": "180 m²",
+        "descripcion": "Esta encantadora casa se encuentra en una zona tranquila de Mendoza y ofrece una mezcla de estilo rústico y contemporáneo. Cuenta con 4 habitaciones, 3 baños, una cocina amplia, sala de estar con chimenea, comedor y un patio trasero con zona de parrilla. La casa también dispone de un garaje para un vehículo. Estado: Buen estado de conservación. Antigüedad: Construida hace 10 años.",
+        "precio": 53000
+      },
+      {
+        "imagen": "Casa3.jpg",
+        "titulo": "Casa en Calle San Martín 789, Bariloche",
+        "metros_cuadrados": "250 m²",
+        "descripcion": "Esta espaciosa casa se encuentra en un entorno natural privilegiado en Bariloche, rodeada de bosques y montañas. Cuenta con 5 habitaciones, 4 baños, una cocina moderna, amplio salón con grandes ventanales, comedor y una terraza con vistas panorámicas. La casa también cuenta con un jardín privado y estacionamiento para dos vehículos. Estado: Buen estado de conservación. Antigüedad: Construida hace 15 años.",
+        "precio": 85000
+      },
+      {
+        "imagen": "Casa4.jpeg",
+        "titulo": "Casa en Calle Los Alamos 234, Córdoba",
+        "metros_cuadrados": "150 m²",
+        "descripcion": "Esta casa de estilo colonial se encuentra en un barrio residencial de Córdoba, ofreciendo un ambiente tranquilo y seguro. Cuenta con 3 habitaciones, 2 baños, una cocina amplia, sala de estar con chimenea, comedor y un patio trasero con área de jardín. La casa también dispone de una cochera para un vehículo. Estado: Buen estado de conservación. Antigüedad: Construida hace 20 años.",
+        "precio": 300000
+      },
+      {
+        "imagen": "casa5.jpg",
+        "titulo": "Casa en Calle Los Tilos 567, Rosario",
+        "metros_cuadrados": "120 m²",
+        "descripcion": "Esta casa adosada se encuentra en una zona residencial de Rosario, cerca de servicios y comercios. Cuenta con 2 habitaciones, 2 baños, una cocina integrada, sala de estar, comedor y un patio trasero con zona de parrilla. La casa también dispone de un garaje para un vehículo. Estado: Buen estado de conservación. Antigüedad: Construida hace 8 años.",
+        "precio": 1000000
+      },
+      {
+        "imagen": "casa6.jpg",
+        "titulo": "Casa en Calle San Luis 890, Salta",
+        "metros_cuadrados": "80 m²",
+        "descripcion": "Esta casa de estilo tradicional se encuentra en el centro histórico de Salta, ofreciendo un ambiente pintoresco y acceso a atracciones turísticas. Cuenta con 2 habitaciones, 1 baño, una cocina independiente, sala de estar, comedor y un pequeño patio trasero. La casa no dispone de cochera. Estado: Buen estado de conservación. Antigüedad: Construida hace 30 años.",
+        "precio": 87000
+      }
+    ]
+  }
+  

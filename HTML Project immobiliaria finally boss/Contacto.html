@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inmobiliaria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100&display=swap" rel="stylesheet">
+    <style>
+      /* Estilo para campos válidos */
+      .valid {
+          border: 2px solid green;
+      }
+
+      /* Estilo para campos inválidos */
+      .invalid {
+          border: 2px solid red;
+      }
+  </style>
+  </head>
+<body>
+    <header><img src="logo agus.jpg" alt="logo"></header>
+    <nav>
+      <a href="index.html" class="enlace">Home</a>
+      <a href="Contacto.html" class="enlace">Contacto</a>
+      <a href="Nosotros.html" class="enlace">Nosotros</a>
+      <a href="busqueda.html" class="enlace">Busqueda de precios</a>
+  </nav>
+    <h6>Contactanos:</h6>
+
+    <form action="enviar.php" method="POST" class="contact-form" onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required oninput="validarNombre()">
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required oninput="validarEmail()">
+      
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required oninput="validarMensaje()"></textarea>
+      
+        <button type="submit">Enviar</button>
+    </form>
+     <!-- BOTON DESPLAZAMIENTO -->
+     <div class="scrolling-button">
+      <input type="checkbox" id="toggle" class="toggle">
+      <label for="toggle" class="toggle-label">
+        <span class="menu-icon">&#9776;</span>
+        <span class="menu-text">Explorar</span>
+        <ul class="menu-list">
+          <li><a href="DEPARTAMENTOS.html">Departamentos</a></li>
+          <li><a href="HOTELES.html">Hoteles</a></li>
+          <li><a href="CASAS.html">Casas</a></li>
+          <li><a href="busqueda.html">Busqueda de precios</a></li>
+        </ul>
+      </label>
+    </div>
+    
+    
+    <!-- Secciones de la página -->
+    <section id="departamentos">
+
+    </section>
+    
+    <section id="hoteles">
+
+    </section>
+    
+    <section id="casas">
+
+    </section>
+    <section id="Busqueda de precios">
+
+    </section>
+      <!-- BOTON DESPLAZAMIENTO Final-->
+        <footer>
+          <div class="footer-content">
+            <div class="social-media">
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-links">
+              <a href="#">Acerca de nosotros</a>
+              <a href="#">Política de privacidad</a>
+              <a href="#">Términos y condiciones</a>
+              <a href="#">Contáctanos</a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>Todos los derechos reservados &copy; 2023 Empresa XYZ</p>
+            <p>@habitat.inmobiliaria</p>
+            <p>www.facebook.com/habitat-inmobiliaria</p>
+            <p>info@habitat-inmobiliaria.com</p>
+            <p>+54 9 2615175351</p>
+          </div>
+        </footer>
+        <script>
+          // Función para validar el campo Nombre
+          function validarNombre() {
+              const nombre = document.getElementById("nombre");
+              if (nombre.value.length >= 3) {
+                  nombre.classList.remove("invalid");
+                  nombre.classList.add("valid");
+              } else {
+                  nombre.classList.remove("valid");
+                  nombre.classList.add("invalid");
+              }
+          }
+  
+          // Función para validar el campo Email
+          function validarEmail() {
+              const email = document.getElementById("email");
+              const re = /\S+@\S+\.\S+/;
+              if (re.test(email.value)) {
+                  email.classList.remove("invalid");
+                  email.classList.add("valid");
+              } else {
+                  email.classList.remove("valid");
+                  email.classList.add("invalid");
+              }
+          }
+  
+          // Función para validar el campo Mensaje
+          function validarMensaje() {
+              const mensaje = document.getElementById("mensaje");
+              if (mensaje.value.length >= 10) {
+                  mensaje.classList.remove("invalid");
+                  mensaje.classList.add("valid");
+              } else {
+                  mensaje.classList.remove("valid");
+                  mensaje.classList.add("invalid");
+              }
+          }
+  
+          // Función para validar el formulario completo
+          function validarFormulario() {
+              validarNombre();
+              validarEmail();
+              validarMensaje();
+  
+              // Comprueba si algún campo tiene la clase "invalid"
+              if (document.querySelectorAll(".invalid").length > 0) {
+                  alert("Por favor, completa todos los campos correctamente.");
+                  return false;
+              }
+  
+              return true;
+          }
+      </script>
+ </body>    

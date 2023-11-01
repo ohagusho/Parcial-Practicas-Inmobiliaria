@@ -1,0 +1,48 @@
+{
+    "propiedades": [
+      {
+        "titulo": "Av. Libertador 123, Buenos Aires",
+        "metros_cuadrados": "80 m²",
+        "imagen": "Depa1.webp",
+        "descripcion": "Este departamento ubicado en la Av. Libertador ofrece un amplio espacio para vivir cómodamente en Buenos Aires. Cuenta con 2 dormitorios, 2 baños, cocina equipada y sala de estar luminosa. El departamento cuenta con una excelente distribución y ventanas grandes que permiten una buena entrada de luz natural. Además, dispone de una pequeña terraza con vistas a la ciudad.",
+        "precio": 20000
+      },
+      {
+        "titulo": "Calle San Martín 456, Córdoba",
+        "metros_cuadrados": "60 m²",
+        "imagen": "Depa2.jpg",
+        "descripcion": "Este acogedor departamento ubicado en el centro de Córdoba es perfecto para parejas o estudiantes. Cuenta con 1 dormitorio, 1 baño, cocina integrada y sala de estar. El departamento está amueblado con muebles modernos y cuenta con una decoración minimalista. Además, dispone de aire acondicionado y calefacción central.",
+        "precio": 33500
+      },
+      {
+        "titulo": "Av. Costanera 789, Mar del Plata",
+        "metros_cuadrados": "100 m²",
+        "imagen": "Depa3.jpg",
+        "descripcion": "Este amplio departamento se encuentra en la zona costera de Mar del Plata, ofreciendo vistas al mar desde sus grandes ventanales. Cuenta con 3 dormitorios, 2 baños, cocina independiente, sala de estar y comedor. El departamento está completamente amueblado y cuenta con acabados de alta calidad. Además, dispone de una cochera privada.",
+        "estado": "Excelente estado de conservación",
+        "precio": 38300
+      },
+      {
+        "titulo": "Calle Mitre 234, Rosario",
+        "metros_cuadrados": "70 m²",
+        "imagen": "Depa4.jpg",
+        "descripcion": "Este moderno departamento se encuentra en el centro de Rosario, cerca de tiendas y restaurantes. Cuenta con 2 dormitorios, 1 baño, cocina integrada y sala de estar luminosa. El departamento cuenta con una distribución funcional y acabados contemporáneos. Además, dispone de una terraza comunitaria con zona de barbacoa.",
+        "precio": 250000
+      },
+      {
+        "titulo": "Av. del Sol 567, Mendoza",
+        "metros_cuadrados": "85 m²",
+        "imagen": "depa5.jpeg",
+        "descripcion": "Este departamento luminoso se encuentra en una zona residencial tranquila de Mendoza. Cuenta con 2 dormitorios, 2 baños, cocina independiente, sala de estar y comedor. El departamento cuenta con una amplia terraza con vistas a las montañas circundantes. Además, dispone de una cochera privada y piscina comunitaria.",
+        "precio": 1000000
+      },
+      {
+        "titulo": "Calle San Juan 890, Salta",
+        "metros_cuadrados": "50 m²",
+        "imagen": "depa6.png",
+        "descripcion": "Este departamento acogedor se encuentra en el centro histórico de Salta, cerca de atracciones turísticas y comercios. Cuenta con 1 dormitorio, 1 baño, cocina integrada y sala de estar. El departamento está decorado en estilo rústico y cuenta con detalles auténticos de la región. Además, dispone de una pequeña terraza comunitaria.",
+        "precio": 30400
+      }
+    ]
+  }
+  
